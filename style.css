@@ -1,0 +1,30 @@
+    *{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+   .container{
+    width: 1450px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+   .parent{
+    width: 100%;
+    height: auto;
+    display: flex; 
+    justify-content: space-evenly;
+}
+    .element{
+    width: 200px;
+    height: auto;
+    background: rgb(255, 0, 0);
+    box-shadow: 10px 10px 30px ;
+    /* box-shadow soyalar uchun  */
+    text-align: center;
+padding: 1rem;
+color: aliceblue;
+}
+.element h3{
+text-shadow: 0px 0px 15px;
+}
